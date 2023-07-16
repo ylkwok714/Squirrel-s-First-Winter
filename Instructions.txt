@@ -1,0 +1,27 @@
+Dark Academia Custom GUI instructions:
+
+This file includes the TTF file for the font Forum but you can download it here: 
+https://fonts.google.com/specimen/Forum?preview.text_type=custom&query=forum
+
+You can credit me as Jaime Scribbles, but it isn't required.
+
+Made for and Coded in Ren'py version 7.4.4.1439
+
+Instructions:
+1. Unzip the file and place 'Custom GUI 3' into your directory where you keep your Ren'py games.
+2. Rename the game to your game title!
+	* There are 3 places in options.rpy where the name needs changed: config.name, build.name, and 	save_directory (only change CustomGUI3 in save_directory, not the dash or numbers.)
+3. Create your game the same way you would normally!
+
+****
+Achievements, Endings, and Gallery have code located under custom_gui_variables_and_code.rpy
+
+You can list your achievements, endings and gallery using the sample code provided.
+
+in your script use the persistent variables to unlock the items like this:
+$ persistent.cg_1_unlocked = True
+
+Helpful Ren'py resources!
+Lemmasoft forums: https://lemmasoft.renai.us/forums/index.php?sid=390d10d9c52c14d7df0786986a8c3360
+DevTalk+ Discord Server: https://discord.gg/tABPqwU
+Ren'py Discord Server: https://discord.gg/9Sp6qKV
